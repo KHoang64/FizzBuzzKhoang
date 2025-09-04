@@ -33,7 +33,7 @@ void FizzBuzz(int n)
         std::cout << "the following number is " << n;
          if (i % 5 && i % 3)
         {
-            std::cout << "RRizz\n";
+            std::cout << "Fizz\n";
         }
         else if (i % 5)
         {
@@ -41,7 +41,7 @@ void FizzBuzz(int n)
         }
         else if (i % 3)
         {
-            std::cout << "RizzBuzz\n";
+            std::cout << "FizzBuzz\n";
         }
         else
         {
