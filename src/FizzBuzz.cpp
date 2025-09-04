@@ -28,24 +28,24 @@
 
 void FizzBuzz(int n)
 {
-    for (int i = 0; i < n; i++)
+    for (int i = 1; i <= n; i++)
     {
-        std::cout << "the following number is " << n;
-         if (i % 5 && i % 3)
-        {
-            std::cout << "Fizz\n";
-        }
-        else if (i % 5)
-        {
-            std::cout << "Buzz\n";
-        }
-        else if (i % 3)
+
+         if (i % 5 == 0 && i % 3 == 0)
         {
             std::cout << "FizzBuzz\n";
         }
+        else if (i % 5 == 0)
+        {
+            std::cout << "Buzz\n";
+        }
+        else if (i % 3 == 0)
+        {
+            std::cout << "Fizz\n";
+        }
         else
         {
-            std::cout << i;
+            std::cout << i << "\n";
         }
     }
 }
