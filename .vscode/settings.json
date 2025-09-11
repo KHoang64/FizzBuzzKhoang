@@ -1,5 +1,13 @@
 {
     "cmake.configureOnOpen": true,
     "cmake.debugConfig": { "name": "Launch Debugger - CodeLLDB" },
-    "cmake.options.advanced": { "debug": { "statusBarVisibility": "hidden", "projectStatusVisibility": "hidden" } }
+    "cmake.options.advanced": {
+        "debug": {
+            "statusBarVisibility": "hidden",
+            "projectStatusVisibility": "hidden"
+        }
+    },
+    "files.associations": {
+        "iostream": "cpp"
+    }
 }
